@@ -1,0 +1,36 @@
+@import 'variables';
+
+@font-face {
+  font-family: 'Kurale', serif;
+  src: url(./fonts/Kurale-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Ledger', serif;
+  src: url(./fonts/Ledger-Regular.ttf);
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin-right: calc(-1 * (100vw - 100%)) !important;
+}
+
+body {
+  background-image: url(../../images/intro-bg.png);
+  font-family: 'Ledger', serif !important;
+  color: $text-color;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Kurale', serif !important;
+  color: $header-color;
+}
+
+.wrapper {
+  background: url(../../images/intro.jpg) no-repeat center bottom;
+  min-height: 100vh;
+}

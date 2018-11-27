@@ -1,0 +1,9 @@
+@import '../App/variables';
+
+.jumbotron {
+  background: none;
+
+  hr {
+    border-color: $header-color;
+  }
+}
